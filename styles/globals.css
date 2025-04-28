@@ -1,0 +1,95 @@
+/* Generalno */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background: #f0f2f5;
+  color: #333;
+}
+
+/* Header */
+.header {
+  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.title {
+  font-size: 48px;
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+/* About */
+.about {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.about-content {
+  margin-top: 20px;
+}
+
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+/* Projects */
+.projects {
+  padding: 60px 20px;
+  background: #fff;
+}
+
+.projects-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.project-card {
+  background: #f9f9f9;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+.project-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Contact */
+.contact {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.contact a {
+  color: #2575fc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Animacije */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
