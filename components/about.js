@@ -5,8 +5,11 @@ export default function About() {
       <div className="about-content">
         <img src="public/images/profile.jpg" alt="Bojana" className="profile-pic" />
         <p>
-          Ja sam strastvena dizajnerka i frontend developerka sa ljubavlju prema modernim i funkcionalnim web sajtovima.
-          Volim stvarati projekte koji ostavljaju jak utisak.
+        Kreativna sam web dizajnerka sa završenom edukacijom iz oblasti dizajna i
+        programiranja. Posvećena sam kreiranju vizuelno privlačnih i funkcionalnih
+        web rješenja. Tražim priliku da svoje znanje HTML-a i CSS-a, i alata poput
+        Figma i WordPressa primijenim u profesionalnom okruženju.
+ 
         </p>
       </div>
     </section>

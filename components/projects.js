@@ -6,13 +6,17 @@ export default function Projects() {
         <div className="project-card">
           <img src="public/images/project1.png" alt="Projekat 1" />
           <h3>Portfolio Website</h3>
-          <p>Moderni portfolio sa animacijama i responzivnim dizajnom.</p>
+          <p> Kreirala i održavala lični portfolio koristeći HTML, CSS, JavaScript,
+ pokazujući svoje dizajnerske sposobnosti.
+  </p>
         </div>
 
         <div className="project-card">
           <img src="public/images/project2.jpg" alt="Projekat 2" />
           <h3>Web Shop</h3>
-          <p>Online prodavnica sa jednostavnim procesom kupovine i lepim UI-jem.</p>
+          <p> Razvila prilagodljive web stranice i radila na optimizaciji dizajna za
+          mobilne uređaje.
+  </p>
         </div>
       </div>
     </section>
